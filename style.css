@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: aqua;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 30px;
+}
+.dados {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid aqua;
+    padding: .5rem;
+    width: 60%;
+    outline: none;
+    transition: 0.5s ease;
+}
+
+input:focus {
+    border-bottom: 2px solid red;
+}
+
+button {
+    width: 7vw;
+    height: 4vh;
+    outline: none;
+    font-size: 20px;
+    background-color: aqua;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 20px;
+    transition: 0.5s ease;
+    color: #fff;
+}
+
+button:hover {
+    border: 2px solid aqua;
+    background-color: #fff;
+    color: #000;
+}
